@@ -1,8 +1,9 @@
-# Arch-It 🏗️
+# Arch-It
 
 Professional scaffolding engine by **Alex Gaming Studio**. Turn Blueprints into Projects.
 
-![Arch-It Logo](https://raw.githubusercontent.com/AlexGaming-dev/arch-it/main/assets/logo.png)
+![Arch-It Logo](https://github.com/AlexGaming-dev/arch-it/blob/5c4c7db0675c991d6dc36aa953a25271b6ae3dba/assets/logo.png)
+
 [![GitHub license](https://img.shields.io/github/license/AlexGaming-dev/arch-it)](https://github.com/AlexGaming-dev/arch-it/blob/main/LICENSE)
 [![CI State](https://github.com/AlexGaming-dev/arch-it/actions/workflows/ci.yml/badge.svg)](https://github.com/AlexGaming-dev/arch-it/actions)
 
