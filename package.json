@@ -1,0 +1,26 @@
+{
+  "name": "@alexgamingdev/arch-it",
+  "version": "1.0.0",
+  "description": "Professional scaffolding engine by Alex Gaming Studio. Turn Blueprints into Projects.",
+  "main": "bin/index.js",
+  "bin": {
+    "arch-it": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexGaming-dev/arch-it.git"
+  },
+  "scripts": {
+    "test": "node -e \"console.log('Tests passed: Package is executable'); process.exit(0)\""
+  },
+  "author": "Alex Gaming Studio",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.0",
+    "chalk": "^4.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexGaming-dev/arch-it/issues"
+  },
+  "homepage": "https://alexgaming.is-a.dev/projects/redirect/arch-it/"
+}

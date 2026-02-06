@@ -1,0 +1,32 @@
+{
+  "_comment_1": "ARCH-IT BLUEPRINT GUIDE: This file defines your project structure.",
+  "_comment_2": "The 'projectName' is the display name during the build process.",
+  "projectName": "Arch-It-Documentation-Demo",
+  
+  "structure": {
+    ".": {
+      "_comment_3": "The '.' folder represents your current root directory.",
+      "README.md": "# New Project\nCreated with Arch-It.",
+      "arch-it-notes.txt": "How to use:\n1. Edit this blueprint.json\n2. Run 'arch-it' in the terminal\n3. Watch the magic happen."
+    },
+    "src": {
+      "_comment_4": "Keys inside 'structure' (like 'src') will be created as folders.",
+      "index.js": "// Your main entry file\nconsole.log('App started');",
+      "utils.js": "// Add utility functions here"
+    },
+    "src/internal": {
+      "_comment_5": "You can also define nested paths directly as keys.",
+      "core.js": "/* Core Logic */"
+    },
+    "docs": {
+      "_comment_6": "Each file within a folder key needs a name and its content string.",
+      "setup.md": "# Setup Instructions\nStep 1: Install dependencies."
+    },
+    "assets": {
+      "_comment_7": "Folders will only be created if they contain at least one file.",
+      ".gitkeep": ""
+    }
+  },
+
+  "_comment_final": "Alex Gaming Studio - Professional Scaffolding Engine"
+}

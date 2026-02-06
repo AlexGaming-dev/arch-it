@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        
+    - name: Install dependencies
+      run: npm install
+      
+    - name: Validate Blueprint Structure
+      run: |
+        if [ -f blueprint.json ]; then
+          node -e "const b = require('./blueprint.json'); if(!b.projectName || !b.structure) throw new Error('Missing required fields'); console.log('✅ Blueprint structure is valid');"
+        else
+          echo "⚠️ No blueprint.json found to validate, skipping."
+        fi
+
+    - name: Run Tests
+      run: npm test
