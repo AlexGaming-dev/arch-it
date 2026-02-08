@@ -76,4 +76,4 @@ If you encounter errors during the publish or build process:
 
 ---
 
-*© 2026 Alex Gaming Studio. Professional Scaffolding Solutions.*
+*© 2026 alexgamingdev. Professional Scaffolding Solutions.*
